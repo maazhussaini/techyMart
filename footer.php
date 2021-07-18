@@ -47,7 +47,7 @@
                     </div>
                 </form>
             </div>
-            <div class="insta">
+            <!-- <div class="insta">
                 <h6 class="custom-font stit simple-btn">Instagram Post</h6>
                 <div class="insta-gallary">
                     <a href="#0">
@@ -60,7 +60,7 @@
                         <img src="img/insta/3.jpg" alt="">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="copyrights text-center">
