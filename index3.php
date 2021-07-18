@@ -1,5 +1,3 @@
-# techyMart
-
 <!DOCTYPE html>
 <html lang="zxx">
 
