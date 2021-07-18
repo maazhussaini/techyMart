@@ -7,12 +7,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
-    <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="TechyMart - Software Company" />
+    <meta name="description" content="TechyMart - Software Company" />
+    <meta name="author" content="TechyMart" />
 
     <!-- Title  -->
-    <title>Avo</title>
+    <title>TechyMart</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -175,7 +175,7 @@
                         <h3 class="co-tit custom-font wow" data-splitting>Our 20 years working experience make a
                             different business agency
                             services.</h3>
-                        <p class="wow fadeInUp" data-wow-delay=".4s">We are AVO. We create award-winning websites,
+                        <p class="wow fadeInUp" data-wow-delay=".4s">We are TechyMart. We create award-winning websites,
                             remarkable brands and cutting-edge apps.Nullam
                             imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet
                             erat. Ut dictum nisi masvitp.</p>
@@ -405,7 +405,7 @@
                 <div class="col-lg-8">
                     <div class="slic-item">
                         <div class="item">
-                            <p>Working with Avo digital agency to support our organic and paid social media activity has
+                            <p>Working with TechyMart digital agency to support our organic and paid social media activity has
                                 extended the marketing activities we are able to achieve platform has made collaboration
                                 easy.</p>
                             <div class="info">
@@ -421,7 +421,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <p>Avo started out managing our SEO efforts, but their scientific approach to digital
+                            <p>TechyMart started out managing our SEO efforts, but their scientific approach to digital
                                 marketing and the results they have achieved made it an easy decision for us to handover
                                 the management.</p>
                             <div class="info">
@@ -437,7 +437,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <p>I would highly recommend Avo Digital. I worked with the team on an animation for our
+                            <p>I would highly recommend TechyMart Digital. I worked with the team on an animation for our
                                 ‘Click & Collect’ service. This team is different from any other agency I have worked
                                 with in the past.</p>
                             <div class="info">
@@ -558,76 +558,6 @@
     <!-- ==================== End Blog ==================== -->
 
     <!-- ==================== Start Footer ==================== -->
-
-    <!-- <footer class="footer-half sub-bg section-padding pb-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="cont">
-                        <div class="logo">
-                            <a href="#0">
-                                <img src="img/logo-light.png" alt="">
-                            </a>
-                        </div>
-                        <div class="con-info custom-font">
-                            <ul>
-                                <li><span>Email : </span> Avo_support@website.com</li>
-                                <li><span>Address : </span> A32 , Ave 15th Street, Door 211, San Franciso, USA 32490.
-                                </li>
-                                <li><span>Phone : </span> (+1) 2345 678 44 88</li>
-                            </ul>
-                        </div>
-                        <div class="social-icon">
-                            <h6 class="custom-font stit simple-btn">Follow Us</h6>
-                            <div class="social">
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-pinterest"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-behance"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-2">
-                    <div class="subscribe mb-50">
-                        <h6 class="custom-font stit simple-btn">Newslatter</h6>
-                        <p>Sign up for subscribe out newsletter!</p>
-                        <form>
-                            <div class="form-group custom-font">
-                                <input type="email" name="subscribe" placeholder="Your Email">
-                                <button class="cursor-pointer">Subscribe</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="insta">
-                        <h6 class="custom-font stit simple-btn">Instagram Post</h6>
-                        <div class="insta-gallary">
-                            <a href="#0">
-                                <img src="img/insta/1.jpg" alt="">
-                            </a>
-                            <a href="#0">
-                                <img src="img/insta/2.jpg" alt="">
-                            </a>
-                            <a href="#0">
-                                <img src="img/insta/3.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyrights text-center">
-                <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
-            </div>
-        </div>
-    </footer> -->
     <?php
         include 'footer.php';
     ?>
@@ -651,6 +581,4 @@
 
 </body>
 
-
-<!-- Mirrored from innovationplans.com/idesign/avo2/avo-dark/index3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Jul 2021 13:23:17 GMT -->
 </html>

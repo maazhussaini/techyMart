@@ -10,7 +10,7 @@
                 </div>
                 <div class="con-info custom-font">
                     <ul>
-                        <li><span>Email : </span> Avo_support@website.com</li>
+                        <li><span>Email : </span> info@techymart.io</li>
                         <li><span>Address : </span> A32 , Ave 15th Street, Door 211, San Franciso, USA
                             32490.
                         </li>
