@@ -38,12 +38,9 @@
 </head>
 
 <body>
-
     <!-- ==================== Start Loading ==================== -->
-
     <div id="preloader">
     </div>
-
     <!-- ==================== End Loading ==================== -->
 
     <!-- ==================== Start progress-scroll-button ==================== -->
@@ -67,6 +64,7 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container">
+
             <?php
                 include 'header.php'
             ?>
@@ -75,418 +73,417 @@
 
     <!-- ==================== End Navbar ==================== -->
 
-
-
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="slider-bus position-re valign">
-        <div class="container ontop">
-            <div class="swiper-container swiper-content">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-8 offset-lg-1 offset-md-1">
-                                <div class="caption">
-                                    <h1 data-splitting>
-                                        <div class="thin">Unique brand</div> Stories
-                                    </h1>
-                                    <p>If you need to redesign your new project, new visual strategy, ux structure
-                                        or you do have some cool ideas for collaboration.</p>
-                                    <a href="#0" class="btn-curve btn-color btn-radius mt-30">
-                                        <span>Discover Work</span>
-                                    </a>
+    <header class="slider slider-prlx fixed-slider text-center">
+        <div class="swiper-container parallax-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="img/slid/01.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 col-md-9">
+                                    <div class="caption center">
+                                        <h1 data-splitting>Unique <br> brand Stories</h1>
+                                        <p>If you need to redesign your new project, new visual strategy, ux structure
+                                            or you do have some cool ideas for collaboration.</p>
+                                        <a href="#0" class="btn-curve btn-lit mt-30">
+                                            <span>Look More</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-8 offset-lg-1 offset-md-1">
-                                <div class="caption">
-                                    <h1 data-splitting>
-                                        <div class="thin">Digital Design</div>Awards
-                                    </h1>
-                                    <p>If you need to redesign your new project, new visual strategy, ux structure
-                                        or you do have some cool ideas for collaboration.</p>
-                                    <a href="#0" class="btn-curve btn-color btn-radius mt-30">
-                                        <span>Discover Work</span>
-                                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="img/slid/03.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 col-md-9">
+                                    <div class="caption center">
+                                        <h1 data-splitting>Digital <br> Design Awards</h1>
+                                        <p>If you need to redesign your new project, new visual strategy, ux structure
+                                            or you do have some cool ideas for collaboration.</p>
+                                        <a href="#0" class="btn-curve btn-lit mt-30">
+                                            <span>Look More</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-8 offset-lg-1 offset-md-1">
-                                <div class="caption">
-                                    <h1 data-splitting>
-                                        <div class="thin">Original</div> Solutions
-                                    </h1>
-                                    <p>If you need to redesign your new project, new visual strategy, ux structure
-                                        or you do have some cool ideas for collaboration.</p>
-                                    <a href="#0" class="btn-curve btn-color btn-radius mt-30">
-                                        <span>Discover Work</span>
-                                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="img/slid/02.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 col-md-9">
+                                    <div class="caption center">
+                                        <h1 data-splitting>Original Solutions</h1>
+                                        <p>If you need to redesign your new project, new visual strategy, ux structure
+                                            or you do have some cool ideas for collaboration.</p>
+                                        <a href="#0" class="btn-curve btn-lit mt-30">
+                                            <span>Look More</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="swiper-container swiper-img">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide bg-img" data-background="img/slid/1.jpg" data-overlay-dark="6"></div>
-                <div class="swiper-slide bg-img" data-background="img/slid/2.jpg" data-overlay-dark="6"></div>
-                <div class="swiper-slide bg-img" data-background="img/slid/3.jpg" data-overlay-dark="6"></div>
-            </div>
-        </div>
-        <div class="curve-bg bg-img" data-background="img/business-bg.png"></div>
 
-        <!-- slider setting -->
-        <div class="setone">
-            <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
-                <i class="fas fa-chevron-right"></i>
+            <!-- slider setting -->
+            <div class="setone setwo">
+                <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
             </div>
-            <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
-                <i class="fas fa-chevron-left"></i>
+            <div class="swiper-pagination top botm custom-font"></div>
+
+            <div class="social-icon">
+                <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                <a href="#0"><i class="fab fa-twitter"></i></a>
+                <a href="#0"><i class="fab fa-behance"></i></a>
+                <a href="#0"><i class="fab fa-pinterest-p"></i></a>
             </div>
         </div>
-        <div class="swiper-pagination custom-font"></div>
     </header>
 
     <!-- ==================== End Slider ==================== -->
 
+    <div class="main-content">
 
+        <!-- ==================== Start about ==================== -->
 
-    <!-- ==================== Start about ==================== -->
-
-    <section class="about section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 valign">
-                    <div class="content">
-                        <div class="sub-title">
-                            <h6>About Us</h6>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <h3 class="co-tit custom-font wow" data-splitting>Our 20 years working experience make a
-                            different business agency
-                            services.</h3>
-                        <p class="wow fadeInUp" data-wow-delay=".4s">We are AVO. We create award-winning websites,
-                            remarkable brands and cutting-edge apps.Nullam
-                            imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet
-                            erat. Ut dictum nisi masvitp.</p>
-                        <p class="mt-10 wow fadeInUp" data-wow-delay=".4s">Nulla metus metus ullamcorper vel tincidunt
-                            sed euismod nibh volutpat velit
-                            class
-                            aptent taciti sociosqu ad litora.</p>
-                        <a href="#0" class="simple-btn custom-font mt-30 wow" data-splitting><span>Know More</span></a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="blc-img">
-                        <div class="bimg wow imago">
-                            <img src="img/intro/3.jpg" alt="">
-                        </div>
-                        <div class="skills-circle wow fadeInUp" data-wow-delay=".8">
-                            <div class="item">
-                                <div class="skill" data-value="0.9">
-                                    <span class="custom-font">90%</span>
+        <div class="about section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="img-mons">
+                            <div class="row">
+                                <div class="col-md-5 cmd-padding valign">
+                                    <div class="img1 wow imago" data-wow-delay=".5s">
+                                        <img src="img/intro/1.jpg" alt="">
+                                    </div>
                                 </div>
-                                <div class="cont">
-                                    <span>Project</span>
-                                    <h6>Consulting</h6>
+                                <div class="col-md-7 cmd-padding">
+                                    <div class="img2 wow imago" data-wow-delay=".3s">
+                                        <img src="img/intro/3.jpg" alt="">
+                                    </div>
+                                    <div class="img3 wow imago" data-wow-delay=".8s">
+                                        <img src="img/intro/2.jpg" alt="">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="skill" data-value="0.75">
-                                    <span class="custom-font">75%</span>
-                                </div>
-                                <div class="cont">
-                                    <span>App</span>
-                                    <h6>Development</h6>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 valign">
+                        <div class="content">
+                            <div class="sub-title">
+                                <h6>About Us</h6>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h3 class="main-title wow" data-splitting>We are more than just <br> a digital agency.</h3>
+                            <p class="wow txt" data-splitting>We are AVO. We create award-winning websites, remarkable
+                                brands and cutting-edge
+                                apps.Nullam
+                                imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit
+                                amet
+                                erat. Ut dictum nisi masvitp</p>
+                            <div class="ftbox mt-30">
+                                <ul>
+                                    <li class="wow fadeIn" data-wow-delay=".3s">
+                                        <span class="icon pe-7s-gleam"></span>
+                                        <h6 class="custom-font">Pixel <br> Perfect</h6>
+                                        <div class="dots">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="space wow fadeIn" data-wow-delay=".5s">
+                                        <span class="icon pe-7s-paint-bucket"></span>
+                                        <h6 class="custom-font">Creative <br> Design</h6>
+                                        <div class="dots">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="wow fadeIn" data-wow-delay=".8s">
+                                        <span class="icon pe-7s-medal"></span>
+                                        <h6 class="custom-font">Heigh <br> Perfomance</h6>
+                                        <div class="dots">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- ==================== End about ==================== -->
-
+        <!-- ==================== End about ==================== -->
 
 
-    <!-- ==================== Start Services ==================== -->
 
-    <section class="services section-padding sub-bg">
-        <div class="container">
-            <div class="sec-head custom-font tr-head">
-                <h6>Best Features</h6>
-                <h3>Services.</h3>
-                <span class="tbg">Services</span>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="step-item xtop">
-                        <span class="icon pe-7s-gleam"></span>
-                        <h6>Digital Marketing</h6>
-                        <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
-                    </div>
+        <!-- ==================== Start Services ==================== -->
+
+        <section class="services">
+            <div class="container">
+                <div class="sec-head custom-font text-center">
+                    <h6 class="wow fadeIn" data-wow-delay=".5s">Best Features</h6>
+                    <h3 class="wow" data-splitting>Services.</h3>
+                    <span class="tbg">Services</span>
                 </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="step-item xcolor">
-                        <span class="icon pe-7s-phone"></span>
-                        <h6>Web & App Development</h6>
-                        <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft" data-wow-delay=".3s"
+                        data-background="img/1.jpg">
+                        <h4 class="custom-font">Best Of <br> Our Features</h4>
+                        <a href="about.html" class="btn-curve btn-bord btn-lit mt-40"><span>See All Services</span></a>
                     </div>
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
-                    <div class="step-item xbottom">
-                        <span class="icon pe-7s-magic-wand"></span>
+                    <div class="col-lg-3 col-md-6 item-box wow fadeInLeft" data-wow-delay=".5s">
+                        <span class="icon pe-7s-paint-bucket"></span>
                         <h6>Graphic Design</h6>
                         <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
                     </div>
+                    <div class="col-lg-3 col-md-6 item-box wow fadeInLeft" data-wow-delay=".7s">
+                        <span class="icon pe-7s-phone"></span>
+                        <h6>Web & <br> Mobile Design</h6>
+                        <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 item-box wow fadeInLeft" data-wow-delay=".9s">
+                        <span class="icon pe-7s-display1"></span>
+                        <h6>Social <br> media Marketing</h6>
+                        <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+                    </div>
                 </div>
             </div>
-            <div class="smore custom-font">
-                <a href="#0">Discover More</a>
-                <i class="fas fa-long-arrow-alt-right"></i>
-            </div>
-        </div>
-    </section>
+            <div class="half-bg bottom"></div>
+        </section>
 
-    <!-- ==================== End Services ==================== -->
+        <!-- ==================== End Services ==================== -->
 
 
 
-    <!-- ==================== Start block-sec ==================== -->
+        <!-- ==================== Start numbers ==================== -->
 
-    <section class="block-sec">
-        <div class="background bg-img section-padding pb-0" data-background="img/pattern.png">
+        <section class="number-sec section-padding sub-bg">
             <div class="container">
-                <div class="number-sec">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="item no-bord">
-                                <span class="icon pe-7s-smile"></span>
-                                <h3 class="custom-font"><span class="count">2400</span></h3>
-                                <p class="wow txt" data-splitting>Happy Clients</p>
-                            </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item no-bord">
+                            <span class="icon pe-7s-smile"></span>
+                            <h3 class="custom-font"><span class="count">2400</span></h3>
+                            <p class="wow txt" data-splitting>Happy Clients</p>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="item">
-                                <span class="icon pe-7s-portfolio"></span>
-                                <h3 class="custom-font"><span class="count">133</span></h3>
-                                <p class="wow txt" data-splitting>Compleate Projects</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <span class="icon pe-7s-portfolio"></span>
+                            <h3 class="custom-font"><span class="count">133</span></h3>
+                            <p class="wow txt" data-splitting>Compleate Projects</p>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="item">
-                                <span class="icon pe-7s-cloud-download"></span>
-                                <h3 class="custom-font"><span class="count">254</span> k</h3>
-                                <p class="wow txt" data-splitting>Files Downloaded</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <span class="icon pe-7s-cloud-download"></span>
+                            <h3 class="custom-font"><span class="count">254</span> k</h3>
+                            <p class="wow txt" data-splitting>Files Downloaded</p>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="item">
-                                <span class="icon pe-7s-medal"></span>
-                                <h3 class="custom-font"><span class="count">46</span></h3>
-                                <p class="wow txt" data-splitting>Award Win</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <span class="icon pe-7s-medal"></span>
+                            <h3 class="custom-font"><span class="count">46</span></h3>
+                            <p class="wow txt" data-splitting>Award Win</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End numbers ==================== -->
+
+
+
+        <!-- ==================== Start works ==================== -->
+
+        <section class="work-carousel section-padding pt-0 metro position-re">
+            <div class="container ontop">
+                <div class="row">
+                    <div class="col-lg-12 no-padding">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                        <div class="item-img bg-img wow imago"
+                                            data-background="img/portfolio/metro/01.jpg">
+                                        </div>
+                                        <div class="cont">
+                                            <h6><a href="#0">art & illustration</a></h6>
+                                            <h4><a href="project-details.html">Innovation and Crafts.</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                        <div class="item-img bg-img wow imago"
+                                            data-background="img/portfolio/metro/02.jpg">
+                                        </div>
+                                        <div class="cont">
+                                            <h6><a href="#0">art & illustration</a></h6>
+                                            <h4><a href="project-details.html">Inspiring new space.</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                        <div class="item-img bg-img wow imago"
+                                            data-background="img/portfolio/metro/03.jpg">
+                                        </div>
+                                        <div class="cont">
+                                            <h6><a href="#0">art & illustration</a></h6>
+                                            <h4><a href="project-details.html">Natural plus modern.</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                        <div class="item-img bg-img wow imago"
+                                            data-background="img/portfolio/metro/04.jpg">
+                                        </div>
+                                        <div class="cont">
+                                            <h6><a href="#0">art & illustration</a></h6>
+                                            <h4><a href="project-details.html">Innovation and Crafts.</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                        <div class="item-img bg-img wow imago"
+                                            data-background="img/portfolio/metro/05.jpg">
+                                        </div>
+                                        <div class="cont">
+                                            <h6><a href="#0">art & illustration</a></h6>
+                                            <h4><a href="project-details.html">Inspiring new space.</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- slider setting -->
+                            <div class="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer">
+                                <span class="simple-btn right">Next</span>
+                            </div>
+                            <div class="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer">
+                                <span class="simple-btn">Prev</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="showreel">
+            <div class="half-bg top"></div>
+        </section>
+
+        <!-- ==================== End works ==================== -->
+
+
+
+        <!-- ==================== Start block-sec ==================== -->
+
+        <section class="block-sec">
+            <div class="background bg-img section-padding pb-0" data-background="img/slid/1.jpg" data-overlay-dark="8">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-9">
-                            <div class="video-box">
-                                <div class="tit-text">
-                                    <h3 class="wow" data-splitting>Showreel</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="vid-area">
+                                <div class="vid-icon">
+                                    <a class="vid" href="#">
+                                        <div class="vid-butn">
+                                            <span class="icon">
+                                                <i class="fas fa-play"></i>
+                                            </span>
+                                        </div>
+                                    </a>
                                 </div>
-                                <div class="wow imago">
-                                    <div class="img">
-                                        <img src="img/vid.jpg" alt="">
-                                    </div>
-                                    <div class="vid-icon">
-                                        <a class="vid" href="https://vimeo.com/127203262">
-                                            <div class="vid-butn">
-                                                <span class="icon">
-                                                    <i class="fas fa-play"></i>
-                                                </span>
+
+                                <div class="cont">
+                                    <h3 class="wow" data-splitting>So that's us. There's no other way to put it.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-1">
+                            <div class="testim-box">
+                                <div class="head-box">
+                                    <h6 class="wow fadeIn" data-wow-delay=".5s">Our Happy Clients</h6>
+                                    <h4 class="wow fadeInLeft" data-wow-delay=".5s">What Client's Say?</h4>
+                                </div>
+                                <div class="slic-item wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="item">
+                                        <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
+                                            class
+                                            aptent taciti sociosqu ad litora.</p>
+                                        <div class="info">
+                                            <div class="img">
+                                                <div class="img-box">
+                                                    <img src="img/clients/1.jpg" alt="">
+                                                </div>
                                             </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End block-sec ==================== -->
-
-
-
-    <!-- ==================== Start Works ==================== -->
-
-    <section class="work-carousel section-padding caroul sub-bg position-re">
-        <div class="container-fluid mt-100">
-            <div class="sec-head custom-font text-center">
-                <h6 class="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
-                <h3 class="wow" data-splitting>Our Works.</h3>
-                <span class="tbg">Portfolio</span>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 no-padding">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/1.jpg">
-                                    </div>
-                                    <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Innovation and Crafts.</a></h4>
-                                        <a href="project-details2.html">
-                                            <span class="icon"><i class="fas fa-plus"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/2.jpg">
-                                    </div>
-                                    <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Inspiring new space.</a></h4>
-                                        <a href="project-details2.html">
-                                            <span class="icon"><i class="fas fa-plus"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/3.jpg">
-                                    </div>
-                                    <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Natural plus modern.</a></h4>
-                                        <a href="project-details2.html">
-                                            <span class="icon"><i class="fas fa-plus"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/4.jpg">
-                                    </div>
-                                    <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Innovation and Crafts.</a></h4>
-                                        <a href="project-details2.html">
-                                            <span class="icon"><i class="fas fa-plus"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/5.jpg">
-                                    </div>
-                                    <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Inspiring new space.</a></h4>
-                                        <a href="project-details2.html">
-                                            <span class="icon"><i class="fas fa-plus"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- slider setting -->
-                        <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
-                            <i class="ion-ios-arrow-right"></i>
-                        </div>
-                        <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
-                            <i class="ion-ios-arrow-left"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End Works ==================== -->
-
-    <!-- ==================== Start testimonials ==================== -->
-
-    <section class="testimonials section-padding">
-        <div class="container position-re">
-            <div class="sec-head custom-font text-center">
-                <h6 class="wow fadeIn" data-wow-delay=".5s">What Peapole Says?</h6>
-                <h3 class="wow" data-splitting>Testimonials.</h3>
-                <span class="tbg">Testimonials</span>
-            </div>
-            <div class="row justify-content-center wow fadeInUp" data-wow-delay=".5s">
-                <div class="col-lg-8">
-                    <div class="slic-item">
-                        <div class="item">
-                            <p>Working with Avo digital agency to support our organic and paid social media activity has
-                                extended the marketing activities we are able to achieve platform has made collaboration
-                                easy.</p>
-                            <div class="info">
-                                <div class="cont">
-                                    <div class="author">
-                                        <div class="img">
-                                            <img src="img/clients/1.jpg" alt="">
+                                            <div class="cont">
+                                                <div class="author">
+                                                    <h6 class="author-name custom-font">Alex Regelman</h6>
+                                                    <span class="author-details">Co-founder, Colabrio</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h6 class="author-name custom-font">Alex Regelman</h6>
-                                        <span class="author-details">Co-founder, Colabrio</span>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <p>Avo started out managing our SEO efforts, but their scientific approach to digital
-                                marketing and the results they have achieved made it an easy decision for us to handover
-                                the management.</p>
-                            <div class="info">
-                                <div class="cont">
-                                    <div class="author">
-                                        <div class="img">
-                                            <img src="img/clients/1.jpg" alt="">
+                                    <div class="item">
+                                        <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
+                                            class
+                                            aptent taciti sociosqu ad litora.</p>
+                                        <div class="info">
+                                            <div class="img">
+                                                <div class="img-box">
+                                                    <img src="img/clients/2.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="cont">
+                                                <div class="author">
+                                                    <h6 class="author-name custom-font">Alex Regelman</h6>
+                                                    <span class="author-details">Co-founder, Colabrio</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h6 class="author-name custom-font">Alex Regelman</h6>
-                                        <span class="author-details">Co-founder, Colabrio</span>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <p>I would highly recommend Avo Digital. I worked with the team on an animation for our
-                                ‘Click & Collect’ service. This team is different from any other agency I have worked
-                                with in the past.</p>
-                            <div class="info">
-                                <div class="cont">
-                                    <div class="author">
-                                        <div class="img">
-                                            <img src="img/clients/1.jpg" alt="">
+                                    <div class="item">
+                                        <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
+                                            class
+                                            aptent taciti sociosqu ad litora.</p>
+                                        <div class="info">
+                                            <div class="img">
+                                                <div class="img-box">
+                                                    <img src="img/clients/3.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="cont">
+                                                <div class="author">
+                                                    <h6 class="author-name custom-font">Alex Regelman</h6>
+                                                    <span class="author-details">Co-founder, Colabrio</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h6 class="author-name custom-font">Alex Regelman</h6>
-                                        <span class="author-details">Co-founder, Colabrio</span>
                                     </div>
                                 </div>
                             </div>
@@ -494,190 +491,372 @@
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="arrows">
-                <div class="next cursor-pointer">
-                    <span class="pe-7s-angle-right"></span>
-                </div>
-                <div class="prev cursor-pointer">
-                    <span class="pe-7s-angle-left"></span>
+        <!-- ==================== End block-sec ==================== -->
+
+
+
+        <!-- ==================== Start Skills Circle ==================== -->
+
+        <section class="skills-circle sub-bg pt-50 pb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="item wow fadeInLeft" data-wow-delay=".6">
+                                        <div class="skill" data-value="0.9">
+                                            <span class="custom-font">90%</span>
+                                        </div>
+                                        <div class="cont">
+                                            <span>Project</span>
+                                            <h6>Consulting</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="item wow fadeInLeft" data-wow-delay=".3">
+                                        <div class="skill" data-value="0.75">
+                                            <span class="custom-font">75%</span>
+                                        </div>
+                                        <div class="cont">
+                                            <span>App</span>
+                                            <h6>Development</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ==================== End testimonials ==================== -->
-
+        <!-- ==================== End Skills Circle ==================== -->
 
 
-    <!-- ==================== Start Blog ==================== -->
 
-    <section class="blog-grid section-padding sub-bg">
-        <div class="container">
-            <div class="sec-head custom-font text-center">
-                <h6 class="wow fadeIn" data-wow-delay=".5s">Latest News</h6>
-                <h3 class="wow" data-splitting>Our Blogs.</h3>
-                <span class="tbg">Blogs</span>
+        <!-- ==================== Start clients Brands ==================== -->
+
+        <section class="clients section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 valign">
+                        <div class="sec-head custom-font mb-0">
+                            <h6>Clients</h6>
+                            <h3>Our <br> Clients.</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div>
+                            <div class="row bord">
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/01.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".6s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/02.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".8s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/03.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/04.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".4s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/05.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".7s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/06.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".5s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/07.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/08.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="item bg-img" data-background="img/blog/1.jpg">
+        </section>
+
+        <!-- ==================== End clients Brands ==================== -->
+
+
+
+        <!-- ==================== Start Blog ==================== -->
+
+        <section class="blog-curs section-padding sub-bg">
+            <div class="container">
+                <div class="sec-head custom-font text-center">
+                    <h6 class="wow fadeIn" data-wow-delay=".5s">Latest News</h6>
+                    <h3 class="wow" data-splitting>Our Blogs.</h3>
+                    <span class="tbg">Blogs</span>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="blg-swipe wow fadeInUp" data-wow-delay=".5s">
+                            <div class="item-box">
+                                <div class="item">
+                                    <div class="bimg">
+                                        <div class="img bg-img" data-background="img/blog/1.jpg"></div>
+                                    </div>
+                                    <div class="cont valign">
+                                        <div class="full-width">
+                                            <div class="info custom-font">
+                                                <a href="#0" class="author">
+                                                    <span>by / Admin</span>
+                                                </a>
+                                                <a href="#0" class="date">
+                                                    <span><i>06</i> Aug</span>
+                                                </a>
+                                            </div>
+                                            <h6 class="custom-font">
+                                                <a href="#0">The Start-Up Ultimate Guide to Make Your WordPress
+                                                    Journal.</a>
+                                            </h6>
+                                            <div class="btn-more custom-font">
+                                                <a href="#0" class="simple-btn">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-box">
+                                <div class="item">
+                                    <div class="bimg">
+                                        <div class="img bg-img" data-background="img/blog/2.jpg"></div>
+                                    </div>
+                                    <div class="cont valign">
+                                        <div class="full-width">
+                                            <div class="info custom-font">
+                                                <a href="#0" class="author">
+                                                    <span>by / Admin</span>
+                                                </a>
+                                                <a href="#0" class="date">
+                                                    <span><i>06</i> Aug</span>
+                                                </a>
+                                            </div>
+                                            <h6 class="custom-font">
+                                                <a href="#0">The Start-Up Ultimate Guide to Make Your WordPress
+                                                    Journal.</a>
+                                            </h6>
+                                            <div class="btn-more custom-font">
+                                                <a href="#0" class="simple-btn">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-box">
+                                <div class="item">
+                                    <div class="bimg">
+                                        <div class="img bg-img" data-background="img/blog/3.jpg"></div>
+                                    </div>
+                                    <div class="cont valign">
+                                        <div class="full-width">
+                                            <div class="info custom-font">
+                                                <a href="#0" class="author">
+                                                    <span>by / Admin</span>
+                                                </a>
+                                                <a href="#0" class="date">
+                                                    <span><i>06</i> Aug</span>
+                                                </a>
+                                            </div>
+                                            <h6 class="custom-font">
+                                                <a href="#0">The Start-Up Ultimate Guide to Make Your WordPress
+                                                    Journal.</a>
+                                            </h6>
+                                            <div class="btn-more custom-font">
+                                                <a href="#0" class="simple-btn">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-box">
+                                <div class="item">
+                                    <div class="bimg">
+                                        <div class="img bg-img" data-background="img/blog/4.jpg"></div>
+                                    </div>
+                                    <div class="cont valign">
+                                        <div class="full-width">
+                                            <div class="info custom-font">
+                                                <a href="#0" class="author">
+                                                    <span>by / Admin</span>
+                                                </a>
+                                                <a href="#0" class="date">
+                                                    <span><i>06</i> Aug</span>
+                                                </a>
+                                            </div>
+                                            <h6 class="custom-font">
+                                                <a href="#0">The Start-Up Ultimate Guide to Make Your WordPress
+                                                    Journal.</a>
+                                            </h6>
+                                            <div class="btn-more custom-font">
+                                                <a href="#0" class="simple-btn">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End Blog ==================== -->
+
+
+
+        <!-- ==================== Start call-to-action ==================== -->
+
+        <section class="call-action section-padding sub-bg bg-img" data-background="img/pattern.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-9">
+                        <div class="content sm-mb30">
+                            <h6 class="wow" data-splitting>Let’s Talk</h6>
+                            <h2 class="wow custom-font" data-splitting>about your <b>next project</b>.</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 valign">
+                        <a href="contact.html" class="btn-curve btn-lit wow fadeInUp" data-wow-delay=".5s"><span>Get In
+                                Touch</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End call-to-action ==================== -->
+
+
+
+        <!-- ==================== Start Footer ==================== -->
+
+        <footer class="footer-half sub-bg section-padding pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
                         <div class="cont">
-                            <a href="#0" class="date custom-font">
-                                <span><i>06</i> Aug 2019</span>
-                            </a>
-                            <div class="info custom-font">
-                                <a href="#0" class="author">
-                                    <span>by / Admin</span>
-                                </a>
-                                <a href="#0" class="tag">
-                                    <span>WordPress</span>
+                            <div class="logo">
+                                <a href="#0">
+                                    <img src="img/logo-light.png" alt="">
                                 </a>
                             </div>
-                            <h6>
-                                <a href="#0">The Start-Up Ultimate Guide to Make Your WordPress
-                                    Journal.</a>
-                            </h6>
-                            <div class="btn-more custom-font">
-                                <a href="#0" class="simple-btn">Read More</a>
+                            <div class="con-info custom-font">
+                                <ul>
+                                    <li><span>Email : </span> Avo_support@website.com</li>
+                                    <li><span>Address : </span> A32 , Ave 15th Street, Door 211, San Franciso, USA
+                                        32490.
+                                    </li>
+                                    <li><span>Phone : </span> (+1) 2345 678 44 88</li>
+                                </ul>
+                            </div>
+                            <div class="social-icon">
+                                <h6 class="custom-font stit simple-btn">Follow Us</h6>
+                                <div class="social">
+                                    <a href="#0" class="icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#0" class="icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#0" class="icon">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                    <a href="#0" class="icon">
+                                        <i class="fab fa-behance"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2">
+                        <div class="subscribe mb-50">
+                            <h6 class="custom-font stit simple-btn">Newslatter</h6>
+                            <p>Sign up for subscribe out newsletter!</p>
+                            <form>
+                                <div class="form-group custom-font">
+                                    <input type="email" name="subscribe" placeholder="Your Email">
+                                    <button class="cursor-pointer">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="insta">
+                            <h6 class="custom-font stit simple-btn">Instagram Post</h6>
+                            <div class="insta-gallary">
+                                <a href="#0">
+                                    <img src="img/insta/1.jpg" alt="">
+                                </a>
+                                <a href="#0">
+                                    <img src="img/insta/2.jpg" alt="">
+                                </a>
+                                <a href="#0">
+                                    <img src="img/insta/3.jpg" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="item active bg-img" data-background="img/blog/2.jpg">
-                        <div class="cont">
-                            <a href="#0" class="date custom-font">
-                                <span><i>06</i> Aug 2019</span>
-                            </a>
-                            <div class="info custom-font">
-                                <a href="#0" class="author">
-                                    <span>by / Admin</span>
-                                </a>
-                                <a href="#0" class="tag">
-                                    <span>WordPress</span>
-                                </a>
-                            </div>
-                            <h6>
-                                <a href="#0">The Start-Up Ultimate Guide to Make Your WordPress
-                                    Journal.</a>
-                            </h6>
-                            <div class="btn-more custom-font">
-                                <a href="#0" class="simple-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
-                    <div class="item bg-img" data-background="img/blog/3.jpg">
-                        <div class="cont">
-                            <a href="#0" class="date custom-font">
-                                <span><i>06</i> Aug 2019</span>
-                            </a>
-                            <div class="info custom-font">
-                                <a href="#0" class="author">
-                                    <span>by / Admin</span>
-                                </a>
-                                <a href="#0" class="tag">
-                                    <span>WordPress</span>
-                                </a>
-                            </div>
-                            <h6>
-                                <a href="#0">The Start-Up Ultimate Guide to Make Your WordPress
-                                    Journal.</a>
-                            </h6>
-                            <div class="btn-more custom-font">
-                                <a href="#0" class="simple-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="copyrights text-center">
+                    <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <!-- ==================== End Blog ==================== -->
-
+        <!-- ==================== End Footer ==================== -->
 
 
-    <!-- ==================== Start Footer ==================== -->
-
-    <footer class="footer-half sub-bg section-padding pb-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="cont">
-                        <div class="logo">
-                            <a href="#0">
-                                <img src="img/logo-light.png" alt="">
-                            </a>
-                        </div>
-                        <div class="con-info custom-font">
-                            <ul>
-                                <li><span>Email : </span> Avo_support@website.com</li>
-                                <li><span>Address : </span> A32 , Ave 15th Street, Door 211, San Franciso, USA 32490.
-                                </li>
-                                <li><span>Phone : </span> (+1) 2345 678 44 88</li>
-                            </ul>
-                        </div>
-                        <div class="social-icon">
-                            <h6 class="custom-font stit simple-btn">Follow Us</h6>
-                            <div class="social">
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-pinterest"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-behance"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-2">
-                    <div class="subscribe mb-50">
-                        <h6 class="custom-font stit simple-btn">Newslatter</h6>
-                        <p>Sign up for subscribe out newsletter!</p>
-                        <form>
-                            <div class="form-group custom-font">
-                                <input type="email" name="subscribe" placeholder="Your Email">
-                                <button class="cursor-pointer">Subscribe</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="insta">
-                        <h6 class="custom-font stit simple-btn">Instagram Post</h6>
-                        <div class="insta-gallary">
-                            <a href="#0">
-                                <img src="img/insta/1.jpg" alt="">
-                            </a>
-                            <a href="#0">
-                                <img src="img/insta/2.jpg" alt="">
-                            </a>
-                            <a href="#0">
-                                <img src="img/insta/3.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyrights text-center">
-                <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- ==================== End Footer ==================== -->
-
-
-
-
-
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.min.js"></script>
@@ -691,6 +870,4 @@
 
 </body>
 
-
-<!-- Mirrored from innovationplans.com/idesign/avo2/avo-dark/index3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Jul 2021 13:23:17 GMT -->
 </html>

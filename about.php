@@ -67,7 +67,7 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            
+
             <!-- navbar links -->
             <?php
                 include 'header.php'
@@ -126,33 +126,9 @@
 
     <!-- ==================== Start Services ==================== -->
 
-    <section class="services section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
-                        <span class="icon pe-7s-gleam"></span>
-                        <h6>Digital Marketing</h6>
-                        <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
-                        <span class="icon pe-7s-phone"></span>
-                        <h6>Web & App Development</h6>
-                        <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item wow fadeInUp" data-wow-delay=".7s">
-                        <span class="icon pe-7s-magic-wand"></span>
-                        <h6>Graphic Design</h6>
-                        <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+        include 'services_section.php'
+    ?>
 
     <!-- ==================== End Services ==================== -->
 
@@ -165,7 +141,7 @@
                     <div class="col-lg-6">
                         <div class="vid-area">
                             <div class="vid-icon">
-                                <a class="vid" href="https://vimeo.com/127203262">
+                                <a class="vid" href="#">
                                     <div class="vid-butn">
                                         <span class="icon">
                                             <i class="fas fa-play"></i>
@@ -275,7 +251,7 @@
                                         <span class="custom-font">75%</span>
                                     </div>
                                     <div class="cont">
-                                        <span>App</span>
+                                        <span>Project</span>
                                         <h6>Development</h6>
                                     </div>
                                 </div>

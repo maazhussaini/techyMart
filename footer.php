@@ -64,7 +64,7 @@
         </div>
     </div>
     <div class="copyrights text-center">
-        <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
+        <p>© 2020, <a href="#0">TechyMart</a>.</p>
     </div>
 </div>
 </footer>
