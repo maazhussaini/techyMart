@@ -11,10 +11,9 @@
                 <div class="con-info custom-font">
                     <ul>
                         <li><span>Email : </span> info@techymart.io</li>
-                        <li><span>Address : </span> A32 , Ave 15th Street, Door 211, San Franciso, USA
-                            32490.
+                        <li><span>Address : </span> Chadwick pkwy, Northlake, Texas 76262.
                         </li>
-                        <li><span>Phone : </span> (+1) 2345 678 44 88</li>
+                        <li><span>Phone : </span> (+94) 059 476 70</li>
                     </ul>
                 </div>
                 <div class="social-icon">
