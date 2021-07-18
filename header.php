@@ -13,7 +13,7 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="index.php">Home</a>
+            <a class="nav-link" href="http://staging.techymart.io/">Home</a>
         </li>
         <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
