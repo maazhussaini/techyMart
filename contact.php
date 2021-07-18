@@ -14,7 +14,7 @@
     <meta name="author" content="TechyMart" />
 
     <!-- Title  -->
-    <title>TechyMart</title>
+    <title>TechyMart - Software Company</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
