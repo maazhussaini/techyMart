@@ -1,6 +1,7 @@
 <!-- Logo -->
 <a class="logo" href="index.php">
-    <img src="img/logo-light.png" alt="logo">
+    <!-- <img src="img/Techymart Logo/Techy Mart Red White PNG.png" alt="logo"> -->
+    <img src="img/Techymart Logo/Techy Mart Red White PNG.png" alt="TechyMart logo"/>
 </a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -13,7 +14,7 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="index3.php">Home</a>
+            <a class="nav-link" href="http://staging.techymart.io/">Home</a>
         </li>
         <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"

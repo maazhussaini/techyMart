@@ -7,12 +7,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
-    <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="TechyMart - Software Company" />
+    <meta name="description" content="TechyMart - Software Company" />
+    <meta name="author" content="TechyMart" />
 
     <!-- Title  -->
-    <title>Avo</title>
+    <title>TechyMart - Software Company</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -426,6 +426,7 @@
 
     <!-- ==================== Start clients Brands ==================== -->
 
+    <!--
     <section class="clients section-padding">
         <div class="container">
             <div class="row">
@@ -442,7 +443,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".3s">
                                     <div class="img">
                                         <img src="img/clients/brands/01.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -450,7 +451,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".6s">
                                     <div class="img">
                                         <img src="img/clients/brands/02.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -458,7 +459,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".8s">
                                     <div class="img">
                                         <img src="img/clients/brands/03.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -466,7 +467,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".3s">
                                     <div class="img">
                                         <img src="img/clients/brands/04.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -476,7 +477,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".4s">
                                     <div class="img">
                                         <img src="img/clients/brands/05.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -484,7 +485,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".7s">
                                     <div class="img">
                                         <img src="img/clients/brands/06.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -492,7 +493,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".5s">
                                     <div class="img">
                                         <img src="img/clients/brands/07.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -500,7 +501,7 @@
                                 <div class="item wow fadeIn" data-wow-delay=".3s">
                                     <div class="img">
                                         <img src="img/clients/brands/08.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                        <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                     </div>
                                 </div>
                             </div>
@@ -510,6 +511,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- ==================== End clients Brands ==================== -->
 

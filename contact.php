@@ -2,19 +2,19 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from innovationplans.com/idesign/avo2/avo-dark/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Jul 2021 12:31:09 GMT -->
+
 <head>
 
     <!-- Metas -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
-    <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="TechyMart - Software Company" />
+    <meta name="description" content="TechyMart - Software Company" />
+    <meta name="author" content="TechyMart" />
 
     <!-- Title  -->
-    <title>Avo</title>
+    <title>TechyMart - Software Company</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -184,7 +184,7 @@
         <footer class="footer-half sub-bg">
             <div class="container">
                 <div class="copyrights text-center mt-0">
-                    <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
+                <p>© 2020, <a href="#0"><a href="http://staging.techymart.io/">TechyMart</a>.</p>
                 </div>
             </div>
         </footer>

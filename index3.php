@@ -7,12 +7,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
-    <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="TechyMart - Software Company" />
+    <meta name="description" content="TechyMart - Software Company" />
+    <meta name="author" content="TechyMart" />
 
     <!-- Title  -->
-    <title>Avo</title>
+    <title>TechyMart - Software Company</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -191,7 +191,7 @@
                                 <span></span>
                             </div>
                             <h3 class="main-title wow" data-splitting>We are more than just <br> a digital agency.</h3>
-                            <p class="wow txt" data-splitting>We are AVO. We create award-winning websites, remarkable
+                            <p class="wow txt" data-splitting>We are TechyMart. We create award-winning websites, remarkable
                                 brands and cutting-edge
                                 apps.Nullam
                                 imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit
@@ -556,7 +556,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
                                             <img src="img/clients/brands/01.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -564,7 +564,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".6s">
                                         <div class="img">
                                             <img src="img/clients/brands/02.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -572,7 +572,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".8s">
                                         <div class="img">
                                             <img src="img/clients/brands/03.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -580,7 +580,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
                                             <img src="img/clients/brands/04.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -590,7 +590,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".4s">
                                         <div class="img">
                                             <img src="img/clients/brands/05.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -598,7 +598,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".7s">
                                         <div class="img">
                                             <img src="img/clients/brands/06.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -606,7 +606,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".5s">
                                         <div class="img">
                                             <img src="img/clients/brands/07.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -614,7 +614,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
                                             <img src="img/clients/brands/08.png" alt="">
-                                            <a href="#0" class="link" data-splitting>www.avo.com</a>
+                                            <a href="#0" class="link" data-splitting>http://staging.techymart.io/</a>
                                         </div>
                                     </div>
                                 </div>
@@ -782,76 +782,9 @@
 
         <!-- ==================== Start Footer ==================== -->
 
-        <footer class="footer-half sub-bg section-padding pb-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="cont">
-                            <div class="logo">
-                                <a href="#0">
-                                    <img src="img/logo-light.png" alt="">
-                                </a>
-                            </div>
-                            <div class="con-info custom-font">
-                                <ul>
-                                    <li><span>Email : </span> Avo_support@website.com</li>
-                                    <li><span>Address : </span> A32 , Ave 15th Street, Door 211, San Franciso, USA
-                                        32490.
-                                    </li>
-                                    <li><span>Phone : </span> (+1) 2345 678 44 88</li>
-                                </ul>
-                            </div>
-                            <div class="social-icon">
-                                <h6 class="custom-font stit simple-btn">Follow Us</h6>
-                                <div class="social">
-                                    <a href="#0" class="icon">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#0" class="icon">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#0" class="icon">
-                                        <i class="fab fa-pinterest"></i>
-                                    </a>
-                                    <a href="#0" class="icon">
-                                        <i class="fab fa-behance"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-2">
-                        <div class="subscribe mb-50">
-                            <h6 class="custom-font stit simple-btn">Newslatter</h6>
-                            <p>Sign up for subscribe out newsletter!</p>
-                            <form>
-                                <div class="form-group custom-font">
-                                    <input type="email" name="subscribe" placeholder="Your Email">
-                                    <button class="cursor-pointer">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="insta">
-                            <h6 class="custom-font stit simple-btn">Instagram Post</h6>
-                            <div class="insta-gallary">
-                                <a href="#0">
-                                    <img src="img/insta/1.jpg" alt="">
-                                </a>
-                                <a href="#0">
-                                    <img src="img/insta/2.jpg" alt="">
-                                </a>
-                                <a href="#0">
-                                    <img src="img/insta/3.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="copyrights text-center">
-                    <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
-                </div>
-            </div>
-        </footer>
+        <?php
+            include 'footer.php';
+        ?>
 
         <!-- ==================== End Footer ==================== -->
 
