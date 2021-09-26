@@ -2,7 +2,6 @@ $(function () {
 
     "use strict";
 
-
     /* ===============================  Navbar Menu  =============================== */
 
     var wind = $(window);
@@ -69,7 +68,7 @@ $(function () {
             $('.topnav .menu-icon .text').addClass('open');
 
             navDark.addClass("navlit");
-            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red White PNG.png');
+            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red Black PNG.png');
 
             window.addEventListener('scroll', noScroll);
 
@@ -80,7 +79,7 @@ $(function () {
             $('.topnav .menu-icon .text').removeClass('open');
 
             navDark.removeClass("navlit");
-            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red Black PNG.png');
+            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red White PNG.png');
 
             window.removeEventListener('scroll', noScroll);
         }
@@ -448,7 +447,7 @@ $(function () {
             value: myVal,
             thickness: 2,
             size: 110,
-            fill: { color: "#75dab4" }
+            fill: { color: "#ee0f0fff" }
         });
 
     });
