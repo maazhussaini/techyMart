@@ -15,12 +15,12 @@ $(function () {
         if (bodyScroll > 300) {
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/Techymart Logo/Techy Mart Red Black PNG.png');
+            logo.attr('src', 'img/Techymart Logo/Techy Mart Red White PNG.png');
 
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/Techymart Logo/Techy Mart Red White PNG.png');
+            logo.attr('src', 'img/Techymart Logo/Techy Mart Red Black PNG.png');
         }
     });
 
@@ -68,7 +68,7 @@ $(function () {
             $('.topnav .menu-icon .text').addClass('open');
 
             navDark.addClass("navlit");
-            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red White PNG.png');
+            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red Black PNG.png');
 
             window.addEventListener('scroll', noScroll);
 
@@ -79,7 +79,7 @@ $(function () {
             $('.topnav .menu-icon .text').removeClass('open');
 
             navDark.removeClass("navlit");
-            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red Black PNG.png');
+            logoChan.attr('src', 'img/Techymart Logo/Techy Mart Red White PNG.png');
 
             window.removeEventListener('scroll', noScroll);
         }
