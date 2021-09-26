@@ -2366,14 +2366,14 @@ body {
     .works-header .capt h2 span {
       display: block;
       font-size: 20px;
-      font-weight: 300;
+      font-weight: 700;
       text-transform: capitalize;
-      color: #ee0f0fff; }
+      color: rgb(255, 3, 3); }
   .works-header .capt .bactxt {
-    font-size: 30vw;
+    font-size: 25.5vw;
     font-weight: bold;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.253);
     z-index: -1;
     position: absolute;
     width: 100%;

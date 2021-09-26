@@ -9,12 +9,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="TechyMart - Software Company" />
-    <meta name="description" content="TechyMart - Software Company" />
+    <meta name="keywords" content="TechyMart - Technology For Innovotion | Software Company" />
+    <meta name="description" content="TechyMart - Technology For Innovotion | Software Company" />
     <meta name="author" content="TechyMart" />
 
     <!-- Title  -->
-    <title>TechyMart - Software Company</title>
+    <title>TechyMart - Technology For Innovotion</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -67,13 +67,9 @@
 
     <!-- ==================== Start Navbar ==================== -->
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <?php
-                include 'header.php'
-            ?>
-        </div>
-    </nav>
+    <!-- <div class = 'container'>
+        <img src="img/Techymart Logo/Techy Mart Red Black PNG.png" alt="Techy Mart Logo" />
+    </div> -->
 
     <!-- ==================== End Navbar ==================== -->
 
@@ -87,12 +83,12 @@
                     <div class="capt mt-50">
                         <div class="parlx">
                             <h2 class="custom-font"><span>Let's</span>Talk About Your project.</h2>
-                            <p>Feel free to ask me any question or let’s do to talk about
+                            <p style="color:black; font-weight:bold">Feel free to ask me any question or let’s do to talk about
                                 our future collaboration.</p>
                         </div>
 
                         <div class="bactxt custom-font valign">
-                            <span class="full-width">Contact</span>
+                            <span class="full-width">TechyMart</span>
                         </div>
                     </div>
                 </div>
