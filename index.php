@@ -15,7 +15,7 @@
     <title>TechyMart - Software Company</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="img/Fav Icon.png" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap"

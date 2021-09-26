@@ -5,7 +5,8 @@
             <div class="cont">
                 <div class="logo">
                     <a href="#0">
-                        <img src="img/logo-light.png" alt="">
+                        <!-- <img src="img/logo-light.png" alt="">   -->
+                        <img src="img/Techymart Logo/Techy Mart Red White PNG.png" alt="TechyMart logo"/>
                     </a>
                 </div>
                 <div class="con-info custom-font">

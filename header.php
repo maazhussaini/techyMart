@@ -1,6 +1,7 @@
 <!-- Logo -->
 <a class="logo" href="index.php">
-    <img src="img/logo-light.png" alt="logo">
+    <!-- <img src="img/logo-light.png" alt="logo"> -->
+    <img src="img/Techymart Logo/Techy Mart Red White PNG.png" alt="TechyMart logo"/>
 </a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

@@ -426,6 +426,7 @@
 
     <!-- ==================== Start clients Brands ==================== -->
 
+    <!--
     <section class="clients section-padding">
         <div class="container">
             <div class="row">
@@ -510,6 +511,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- ==================== End clients Brands ==================== -->
 
