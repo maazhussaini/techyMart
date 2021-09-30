@@ -8,7 +8,7 @@
 
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="pages-header bg-img valign parallaxie" data-background="img/slid/1.jpg" data-overlay-dark="5">
+    <header style="background-color:#0c0f16" class="pages-header bg-img valign parallaxie" data-background="img/slid/1.jpg" data-overlay-dark="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -87,12 +87,12 @@
                     <div class="col-lg-5 offset-lg-1">
                         <div class="testim-box">
                             <div class="head-box">
-                                <h6 class="wow fadeIn" data-wow-delay=".5s">Our Happy Clients</h6>
-                                <h4 class="wow fadeInLeft" data-wow-delay=".5s">What Client's Say?</h4>
+                                <h6 style="color:white !important" class="wow fadeIn" data-wow-delay=".5s">Our Happy Clients</h6>
+                                <h4 style="color:white !important" class="wow fadeInLeft" data-wow-delay=".5s">What Client's Say?</h4>
                             </div>
                             <div class="slic-item wow fadeInUp" data-wow-delay=".5s">
                                 <div class="item">
-                                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
+                                    <p style="color:white !important">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
                                         class
                                         aptent taciti sociosqu ad litora.</p>
                                     <div class="info">
@@ -103,14 +103,14 @@
                                         </div>
                                         <div class="cont">
                                             <div class="author">
-                                                <h6 class="author-name custom-font">Alex Regelman</h6>
-                                                <span class="author-details">Co-founder, Colabrio</span>
+                                                <h6 style="color:white !important" class="author-name custom-font">Alex Regelman</h6>
+                                                <span style="color:white !important" class="author-details">Co-founder, Colabrio</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
+                                    <p style="color:white !important">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
                                         class
                                         aptent taciti sociosqu ad litora.</p>
                                     <div class="info">
@@ -121,14 +121,14 @@
                                         </div>
                                         <div class="cont">
                                             <div class="author">
-                                                <h6 class="author-name custom-font">Alex Regelman</h6>
-                                                <span class="author-details">Co-founder, Colabrio</span>
+                                                <h6 style="color:white !important" class="author-name custom-font">Alex Regelman</h6>
+                                                <span style="color:white !important" class="author-details">Co-founder, Colabrio</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
+                                    <p style="color:white !important">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
                                         class
                                         aptent taciti sociosqu ad litora.</p>
                                     <div class="info">
@@ -139,8 +139,8 @@
                                         </div>
                                         <div class="cont">
                                             <div class="author">
-                                                <h6 class="author-name custom-font">Alex Regelman</h6>
-                                                <span class="author-details">Co-founder, Colabrio</span>
+                                                <h6 style="color:white !important" class="author-name custom-font">Alex Regelman</h6>
+                                                <span style="color:white !important" class="author-details">Co-founder, Colabrio</span>
                                             </div>
                                         </div>
                                     </div>

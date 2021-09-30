@@ -67,9 +67,9 @@
         </div>
         <div class="swiper-container swiper-img">
             <div class="swiper-wrapper">
-                <div class="swiper-slide bg-img" data-background="img/slid/1.jpg" data-overlay-dark="6"></div>
-                <div class="swiper-slide bg-img" data-background="img/slid/2.jpg" data-overlay-dark="6"></div>
-                <div class="swiper-slide bg-img" data-background="img/slid/3.jpg" data-overlay-dark="6"></div>
+                <div class="swiper-slide bg-img" data-background="img/slid/1.jpg" data-overlay-dark="10"></div>
+                <div class="swiper-slide bg-img" data-background="img/slid/2.jpg" data-overlay-dark="10"></div>
+                <div class="swiper-slide bg-img" data-background="img/slid/3.jpg" data-overlay-dark="10"></div>
             </div>
         </div>
         <div class="curve-bg bg-img" data-background="img/business-bg.png"></div>
@@ -114,7 +114,7 @@
                             sed euismod nibh volutpat velit
                             class
                             aptent taciti sociosqu ad litora.</p>
-                        <a href="#0" class="simple-btn custom-font mt-30 wow" data-splitting><span>Know More</span></a>
+                        <!-- <a href="#0" class="simple-btn custom-font mt-30 wow" data-splitting><span>Know  More</span></a> -->
                     </div>
                 </div>
                 <div class="col-lg-6">

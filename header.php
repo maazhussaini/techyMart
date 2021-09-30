@@ -108,7 +108,7 @@
                         </div>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">Service</a>
@@ -124,7 +124,7 @@
                         </div>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
                 </ul>
             </div>

@@ -13,11 +13,11 @@
                         <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".6s" >
                     <div class="step-item xcolor">
-                        <span class="icon pe-7s-phone"></span>
-                        <h6>Web & App Development</h6>
-                        <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                        <span class="icon pe-7s-phone" ></span>
+                        <h6 style="color:white !important">Web & App Development</h6>
+                        <p style="color:white !important">Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
@@ -39,8 +39,8 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
                     <div class="step-item xcolor">
                         <span class="icon pe-7s-phone"></span>
-                        <h6>Big Data</h6>
-                        <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                        <h6 style="color:white !important">Big Data</h6>
+                        <p style="color:white !important">Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay=".9s">

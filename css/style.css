@@ -50,7 +50,9 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  
+ }
   body.bd-dark {
     color: #fff;
     background: #0c0f16; }
@@ -855,10 +857,10 @@ a, span {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
-  cursor: none; }
+/* body {
+  cursor: default !important;} */
 
-.mouse-cursor {
+/* .mouse-cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -866,7 +868,8 @@ body {
   border-radius: 50%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  visibility: hidden; }
+  visibility: hidden; 
+}
 
 .cursor-inner {
   margin-left: 2px;
@@ -910,7 +913,7 @@ body {
   -o-transition: all .08s ease-out;
   transition: all .08s ease-out; }
   .cursor-outer.cursor-hover {
-    opacity: 0; }
+    opacity: 0; } */
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
@@ -2373,7 +2376,7 @@ body {
     font-size: 25.5vw;
     font-weight: bold;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.253);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.253);
     z-index: -1;
     position: absolute;
     width: 100%;
