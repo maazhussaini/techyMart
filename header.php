@@ -74,9 +74,9 @@
                 <img src="img/Techymart Logo/Techy Mart Red White PNG.png" alt="TechyMart logo"/>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button style="color:white !important" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+                <span style="color:white !important" class="icon-bar"><i style="color:white !important" class="fas fa-bars"></i></span>
             </button>
 
             <!-- navbar links -->
@@ -111,7 +111,7 @@
                         <a class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">Service</a>
+                        <a class="nav-link" href="services.php">Service</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"

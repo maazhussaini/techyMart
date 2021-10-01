@@ -15,7 +15,7 @@
                     <div class="cont text-center">
                         <h1>About Us</h1>
                         <div class="path">
-                            <a href="#0">Home</a><span>/</span><a href="#0" class="active">About Us</a>
+                            <a href="index.php">Home</a><span>/</span><a href="#0" class="active">About Us</a>
                         </div>
                     </div>
                 </div>
@@ -70,13 +70,13 @@
                     <div class="col-lg-6">
                         <div class="vid-area">
                             <div class="vid-icon">
-                                <a class="vid" href="#">
+                                <div class="vid">
                                     <div class="vid-butn">
                                         <span class="icon">
                                             <i class="fas fa-play"></i>
                                         </span>
                                     </div>
-                                </a>
+                                </div>
                             </div>
 
                             <div class="cont">
