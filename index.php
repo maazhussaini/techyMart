@@ -333,6 +333,10 @@
 
     <!-- ==================== End Blog ==================== -->
 
+    <?php
+        include 'callToAction.php'
+    ?>
+
     <!-- ==================== Start Footer ==================== -->
     <?php
         include 'footer.php';

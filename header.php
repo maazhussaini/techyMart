@@ -126,10 +126,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
+                    <li class="nav-item">
+                        <button type="button" class="custom_quote nav-link btn btn-outline-danger" data-toggle="modal" data-target="#myModal">Get A Free Quote</button>
+                    </li>
                 </ul>
             </div>
-        
         </div>
     </nav>
-
-

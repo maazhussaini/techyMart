@@ -241,11 +241,6 @@
         <div class="row" style="margin-top:50px">
             <div class="col-lg-6">
                 <div class="row">
-                    <img style="vertical-align:middle;" src="img/services/big_data.png" alt="TchyMart - Big Data" />
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="row">
                     <h2>Big Data</h2>
                 </div>
                 <div class="row">
@@ -257,6 +252,12 @@
                 </div>
                 
             </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <img style="vertical-align:middle;" src="img/services/big_data.png" alt="TchyMart - Big Data" />
+                </div>
+            </div>
+            
             
         </div>
     
@@ -264,7 +265,11 @@
 
     <!-- ==================== Start call-to-action ==================== -->
 
-    <section class="call-action section-padding sub-bg bg-img" data-background="img/pattern.png">
+    <?php
+        include 'callToAction.php'
+    ?>
+
+    <!-- <section class="call-action section-padding sub-bg bg-img" data-background="img/pattern.png">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-lg-9">
@@ -280,7 +285,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ==================== End call-to-action ==================== -->
 
