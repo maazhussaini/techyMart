@@ -103,7 +103,7 @@
                         <span></span>
                     </div>
                     <h3 class="co-tit custom-font wow" data-splitting>Over the past glorious years of tremendous working
-                        experience, we succeed in offering different business agency services.
+                        experience, we succeed in offering different business agency
                         services.</h3>
                     <p class="wow fadeInUp" data-wow-delay=".4s">Welcome to TechyMart, where we facilitate our clients
                         with the best foot forward in their area of marketplace and serve for their specialty.
