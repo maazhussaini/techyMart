@@ -171,14 +171,14 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="item no-bord">
                             <span class="icon pe-7s-smile"></span>
-                            <h3 class="custom-font"><span class="count">2400</span></h3>
+                            <h3 class="custom-font"><span class="count">150</span></h3>
                             <p class="wow txt" data-splitting>Happy Clients</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-7">
                         <div class="item">
                             <span class="icon pe-7s-portfolio"></span>
-                            <h3 class="custom-font"><span class="count">133</span></h3>
+                            <h3 class="custom-font"><span class="count">140</span></h3>
                             <p class="wow txt" data-splitting>Complete Projects</p>
                         </div>
                     </div>
