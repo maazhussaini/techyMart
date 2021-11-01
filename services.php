@@ -85,7 +85,7 @@
     </div>
 
     <!-- Email Campaign -->
-    <div class="row" style="margin-top:50px">
+    <!-- <div class="row" style="margin-top:50px">
         <div class="col-lg-6">
             <div class="row">
                 <h2>Email Campaign</h2>
@@ -94,7 +94,6 @@
                 <p style="text-align:justify;">Content Required
                 </p>
             </div>
-
         </div>
         <div class="col-lg-6">
             <div class="row">
@@ -102,7 +101,7 @@
                     src="img/services/email-campaign.png" alt="TchyMart - Mobile Application Development" />
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- UI / Ux Design -->
     <div class="row" style="margin-top:50px">
