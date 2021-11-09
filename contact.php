@@ -1,97 +1,38 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
-
-
-<head>
-
-    <!-- Metas -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="TechyMart - Technology For Innovotion | Software Company" />
-    <meta name="description" content="TechyMart - Technology For Innovotion | Software Company" />
-    <meta name="author" content="TechyMart" />
-
-    <!-- Title  -->
-    <title>TechyMart - Technology For Innovotion</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" />
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
-
-    <!-- Core Style Css -->
-    <link rel="stylesheet" href="css/style.css" />
-
-</head>
-
-<body>
-
-    <!-- ==================== Start Loading ==================== -->
-
-    <div id="preloader">
-    </div>
-
-    <!-- ==================== End Loading ==================== -->
-
-    <!-- ==================== Start progress-scroll-button ==================== -->
-
-    <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-
-    <!-- ==================== End progress-scroll-button ==================== -->
-
-    <!-- ==================== Start cursor ==================== -->
-
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
-
-    <!-- ==================== End cursor ==================== -->
-
-    <!-- ==================== Start Navbar ==================== -->
-
-    <!-- <div class = 'container'>
-        <img src="img/Techymart Logo/Techy Mart Red Black PNG.png" alt="Techy Mart Logo" />
-    </div> -->
+    <?php
+        include 'header.php'
+    ?>
+    
 
     <!-- ==================== End Navbar ==================== -->
 
 
     <!-- ==================== Start header ==================== -->
 
-    <header class="works-header fixed-slider hfixd valign">
+    <header style="background-color: black;" class="works-header fixed-slider hfixd valign">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-11 static">
                     <div class="capt mt-50">
                         <div class="parlx">
-                            <h2 class="custom-font"><span>Let's</span>Talk About Your project.</h2>
-                            <p style="color:black; font-weight:bold">Feel free to ask me any question or let’s do to talk about
+                            <h2 style="color:white !important" class="custom-font"><span>Let's</span>Talk About Your project.</h2>
+                            <p style="color:white !important" font-weight:bold">Feel free to ask me any question or let’s do to talk about
                                 our future collaboration.</p>
                         </div>
-
+                        
                         <div class="bactxt custom-font valign">
-                            <span class="full-width">TechyMart</span>
+                            <span  class="full-width">TechyMart</span>
+                            <!-- <span ><img opacity: 0.5; class="full-width" src="img/Techymart Logo/Techy Mart Red Black PNG.png" alt="TechyMart logo"/></span> -->
+                            <!-- width:100%; height:100%; display: block; margin-left: auto;margin-right: auto;width: 50%; -->
                         </div>
                     </div>
                 </div>
+                <!-- <div class="col-lg-3 static">
+                    <div class="capt mt-50">
+                        <a class="logo" href="index.php">
+                            <img style="width:40%; height:40%" src="img/Techymart Logo/Techy Mart Red Black PNG.png" alt="TechyMart logo"/>
+                        </a>
+                    </div>
+                </div> -->
             </div>
         </div>
     </header>
@@ -111,7 +52,7 @@
                     <div class="col-lg-6">
                         <div class="form md-mb50">
 
-                            <h4 class="extra-title mb-50">Get In Touch.</h4>
+                            <h4 class="extra-title mb-50">Get Free Quote.</h4>
 
                             <form id="contact-form" method="post" action="#">
 
@@ -145,14 +86,14 @@
                             <h3 class="custom-font wow" data-splitting>Let's Talk.
                             </h3>
                             <div class="item mb-40">
-                                <h5><a href="#0">Email@example.com</a></h5>
-                                <h5>+4.930.705.5448</h5>
+                                <h5><a href="#0">info@techymart.io</a></h5>
+                                <h5>(+94) 059 476 70</h5>
                             </div>
                             <h3 class="custom-font wow" data-splitting>Visit Us.
                             </h3>
                             <div class="item">
-                                <h6>295 Witting Streets Suite 666,
-                                    <br>Melbourne, Australia</h6>
+                                <h6>Chadwick pkwy,
+                                    <br>Northlake, Texas</h6>
                             </div>
                             <div class="social mt-50">
                                 <a href="#0" class="icon">

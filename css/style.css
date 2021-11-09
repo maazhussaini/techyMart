@@ -50,7 +50,9 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  
+ }
   body.bd-dark {
     color: #fff;
     background: #0c0f16; }
@@ -855,10 +857,10 @@ a, span {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
-  cursor: none; }
+/* body {
+  cursor: default !important;} */
 
-.mouse-cursor {
+/* .mouse-cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -866,7 +868,8 @@ body {
   border-radius: 50%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  visibility: hidden; }
+  visibility: hidden; 
+}
 
 .cursor-inner {
   margin-left: 2px;
@@ -910,7 +913,7 @@ body {
   -o-transition: all .08s ease-out;
   transition: all .08s ease-out; }
   .cursor-outer.cursor-hover {
-    opacity: 0; }
+    opacity: 0; } */
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
@@ -1168,7 +1171,7 @@ body {
 .btn-curve {
   background: transparent;
   padding: 12px 35px;
-  border: 1px solid #1e1e1e;
+  border: 2px solid black;
   position: relative;
   overflow: hidden;
   cursor: pointer; }
@@ -1208,29 +1211,30 @@ body {
     -o-transition: all .8s;
     transition: all .8s; }
   .btn-curve.btn-lit {
-    border-color: #fff;
-    color: #fff; }
+    border-radius: 25px !important;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); }
     .btn-curve.btn-lit:hover span {
-      color: #ee0f0fff; }
+      color: #fff; }
     .btn-curve.btn-lit:after {
-      background: #fff; }
+      background: #ee0f0fff; }
   .btn-curve.btn-blc {
     background: #1e1e1e; }
     .btn-curve.btn-blc:after {
-      background: #fff; }
+      background: #ee0f0fff; }
     .btn-curve.btn-blc span {
       color: #fff; }
     .btn-curve.btn-blc:hover span {
-      color: #1e1e1e; }
+      color: #fff; }
   .btn-curve.btn-color {
     background: #ee0f0fff;
     border-color: #ee0f0fff; }
     .btn-curve.btn-color:after {
       background: #fff; }
     .btn-curve.btn-color span {
-      color: #0c0f16; }
+      color: #fff; }
     .btn-curve.btn-color:hover span {
-      color: #ee0f0fff; }
+      color: #ee0f0fff }
   .btn-curve.btn-lg {
     padding: 14px 40px; }
     .btn-curve.btn-lg span {
@@ -1239,13 +1243,13 @@ body {
     background: #fff;
     border-color: #fff; }
     .btn-curve.btn-wit:after {
-      background: #090909; }
+      background: #fff; }
     .btn-curve.btn-wit span {
-      color: #1e1e1e; }
+      color: #fff; }
     .btn-curve.btn-wit:hover span {
       color: #fff; }
   .btn-curve.btn-radius {
-    border-radius: 30px; }
+    border-radius: 30px !important; }
 
 .simple-btn {
   position: relative;
@@ -2373,7 +2377,7 @@ body {
     font-size: 25.5vw;
     font-weight: bold;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.253);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.253);
     z-index: -1;
     position: absolute;
     width: 100%;
@@ -2929,14 +2933,25 @@ body {
     padding: 60px;
     margin: 60px auto;
     background: #efefef;
-    position: relative; }
+    position: relative;
+    border-radius: 25px;
+   }
     .services .step-item.xbottom {
       bottom: -60px; }
+      
     .services .step-item.xtop {
       top: -60px; }
+      .services .step-item.xtop:hover{
+        box-shadow: 0 4px 8px 0 rgba(238, 15, 15, 0.479), 0 6px 20px 0 rgba(238, 15, 15, 0.479)
+      }
     .services .step-item.xcolor {
       background: #ee0f0fff;
       color: #11141b; }
+      .services .step-item.xcolor:hover{
+        border-color: black !important;
+        border: 5px;
+        box-shadow: 0 4px 8px 0 rgba(33, 33, 33, 0.664), 0 6px 20px 0 rgba(33, 33, 33, 0.664);
+      }
       .services .step-item.xcolor .icon {
         color: #11141b !important; }
       .services .step-item.xcolor p {
@@ -2947,6 +2962,9 @@ body {
       margin-bottom: 30px; }
     .services .step-item h6 {
       margin-bottom: 20px; }
+    .services:hover{
+      
+    }
   .services .item {
     text-align: center;
     padding: 60px;
@@ -5101,3 +5119,17 @@ body {
       -webkit-text-stroke: 0px #fff; } }
 
 /* ====================== [ End Responsive ] ====================== */
+
+.custom_quote{
+  background: #ee0f0fff;
+  color: #fff;
+  border: 2px;
+  border-radius: 50px;
+  
+}
+  .custom_quote:hover{
+    border-color: #ee0f0fff !important;
+    background: black;
+    color:#ee0f0fff;
+    box-shadow: 0 4px 8px 0 #ee0f0fff, 0 6px 20px 0 #ee0f0fff
+  }

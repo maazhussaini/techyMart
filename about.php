@@ -8,14 +8,14 @@
 
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="pages-header bg-img valign parallaxie" data-background="img/slid/1.jpg" data-overlay-dark="5">
+    <header style="background-color:#0c0f16" class="pages-header bg-img valign parallaxie" data-background="img/slid/1.jpg" data-overlay-dark="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cont text-center">
                         <h1>About Us</h1>
                         <div class="path">
-                            <a href="#0">Home</a><span>/</span><a href="#0" class="active">About Us</a>
+                            <a href="index.php">Home</a><span>/</span><a href="#0" class="active">About Us</a>
                         </div>
                     </div>
                 </div>
@@ -39,12 +39,14 @@
                 </div>
                 <div class="col-lg-8 offset-lg-1 col-md-8">
                     <div class="text">
-                        <p class="wow txt" data-splitting>We develop creative solutions for small and big brands alike, build authentic product
-                            identities and much more.Lorem ipsum dolor sit amet, consectetur adipiscing elit sit non
-                            facilisis vitae eu. Ultrices ut diam morbi risus dui, nec eget at lorem in id tristique
-                            in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio
-                            posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus
-                            risus vitae feugiat fames aliquet sed.</p>
+                        <p class="wow txt" data-splitting>Welcome to <strong>TechyMart</strong>, where we facilitate our clients with the best foot forward in their area of marketplace and serve for their specialty. 
+                            We tend to expedite our client’s new startups, equip them with the latest most on-going technology-based work. 
+                            Boosting their businesses, be it from beginner level to fully developed organization, 
+                            we assure adequate services from scratch.
+                            We, here at <strong>TechyMart</strong>, assure our clients reliable and time efficient services for their new to on-going businesses. 
+                            We incline our well experienced and highly qualified experts to provide you with the solutions for small to large scale needs, 
+                            build authentic product identities and much more
+                        </p>
                     </div>
                 </div>
             </div>
@@ -56,262 +58,32 @@
     <!-- ==================== Start Services ==================== -->
 
     <?php
-        include 'services_section.php'
+        include 'services_section.php';
     ?>
 
     <!-- ==================== End Services ==================== -->
 
     <!-- ==================== Start block-sec ==================== -->
-
-    <section class="block-sec">
-        <div class="background bg-img section-padding pb-0" data-background="img/slid/1.jpg" data-overlay-dark="8">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="vid-area">
-                            <div class="vid-icon">
-                                <a class="vid" href="#">
-                                    <div class="vid-butn">
-                                        <span class="icon">
-                                            <i class="fas fa-play"></i>
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="cont">
-                                <h3 class="wow" data-splitting>So that's us. There's no other way to put it.</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1">
-                        <div class="testim-box">
-                            <div class="head-box">
-                                <h6 class="wow fadeIn" data-wow-delay=".5s">Our Happy Clients</h6>
-                                <h4 class="wow fadeInLeft" data-wow-delay=".5s">What Client's Say?</h4>
-                            </div>
-                            <div class="slic-item wow fadeInUp" data-wow-delay=".5s">
-                                <div class="item">
-                                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
-                                        class
-                                        aptent taciti sociosqu ad litora.</p>
-                                    <div class="info">
-                                        <div class="img">
-                                            <div class="img-box">
-                                                <img src="img/clients/1.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="cont">
-                                            <div class="author">
-                                                <h6 class="author-name custom-font">Alex Regelman</h6>
-                                                <span class="author-details">Co-founder, Colabrio</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
-                                        class
-                                        aptent taciti sociosqu ad litora.</p>
-                                    <div class="info">
-                                        <div class="img">
-                                            <div class="img-box">
-                                                <img src="img/clients/2.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="cont">
-                                            <div class="author">
-                                                <h6 class="author-name custom-font">Alex Regelman</h6>
-                                                <span class="author-details">Co-founder, Colabrio</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
-                                        class
-                                        aptent taciti sociosqu ad litora.</p>
-                                    <div class="info">
-                                        <div class="img">
-                                            <div class="img-box">
-                                                <img src="img/clients/3.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="cont">
-                                            <div class="author">
-                                                <h6 class="author-name custom-font">Alex Regelman</h6>
-                                                <span class="author-details">Co-founder, Colabrio</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+    <?php
+    // include 'happyClient.php';
+    ?>
 
     <!-- ==================== End block-sec ==================== -->
 
     <!-- ==================== Start Skills Circle ==================== -->
 
-    <section class="skills-circle sub-bg pt-50 pb-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="item wow fadeInLeft" data-wow-delay=".6">
-                                    <div class="skill" data-value="0.9">
-                                        <span class="custom-font">90%</span>
-                                    </div>
-                                    <div class="cont">
-                                        <span>Project</span>
-                                        <h6>Consulting</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="item wow fadeInLeft" data-wow-delay=".3">
-                                    <div class="skill" data-value="0.75">
-                                        <span class="custom-font">75%</span>
-                                    </div>
-                                    <div class="cont">
-                                        <span>Project</span>
-                                        <h6>Development</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+        // include 'skillCircle.php.php';
+    ?>
 
     <!-- ==================== End Skills Circle ==================== -->
 
     <!-- ==================== Start Team ==================== -->
-
-    <section class="team section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 valign">
-                    <div class="full-width">
-                        <div class="sec-head custom-font mb-0">
-                            <h6>Employees</h6>
-                            <h3>Our Team.</h3>
-                        </div>
-                        <div class="navs mt-30 wow fadeInUp" data-wow-delay=".3s">
-                            <span class="prev cursor-pointer">
-                                <i class="fas fa-chevron-left"></i>
-                            </span>
-                            <span class="next cursor-pointer">
-                                <i class="fas fa-chevron-right"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="team-container">
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="img/team/01.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <h5>Hasib sharif</h5>
-                                <span>General Manager</span>
-                                <div class="social">
-                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                                    <a href="#0"><i class="fab fa-behance"></i></a>
-                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="img/team/02.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <h5>Jonson Leo</h5>
-                                <span>Founder</span>
-                                <div class="social">
-                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                                    <a href="#0"><i class="fab fa-behance"></i></a>
-                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="img/team/03.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <h5>Leio Man</h5>
-                                <span>Founder</span>
-                                <div class="social">
-                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                                    <a href="#0"><i class="fab fa-behance"></i></a>
-                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="img/team/4.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <h5>Robert Front</h5>
-                                <span>CEO Founder</span>
-                                <div class="social">
-                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                                    <a href="#0"><i class="fab fa-behance"></i></a>
-                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="img/team/5.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <h5>Legender Mao</h5>
-                                <span>3D Visualization</span>
-                                <div class="social">
-                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                                    <a href="#0"><i class="fab fa-behance"></i></a>
-                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="img/team/6.jpg" alt="">
-                            </div>
-                            <div class="info">
-                                <h5>Matt Huk</h5>
-                                <span>3D Visualization</span>
-                                <div class="social">
-                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                                    <a href="#0"><i class="fab fa-behance"></i></a>
-                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+    <?php
+    //  include 'teamSection.php';
+    ?>
 
     <!-- ==================== End Team ==================== -->
 
@@ -322,27 +94,27 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="img">
-                        <img class="thumparallax-down" src="img/min-area.jpg" alt="">
+                        <!-- <img class="thumparallax-down" src="img/min-area.jpg" alt=""> -->
                     </div>
                 </div>
                 <div class="col-lg-6 valign">
                     <div class="content">
                         <h4 class="wow custom-font" data-splitting>About us.</h4>
-                        <p class="wow txt" data-splitting>Our creative Ad agency is ranked among the finest in
-                            the US. We cultivate smart ideas for start-ups and seasoned players.
+                        <p class="wow txt" data-splitting>Welcome to <strong>TechyMart</strong>, where we facilitate our clients with the best foot forward in their area of marketplace and serve for their specialty. 
+                            We tend to expedite our client’s new startups, equip them with the latest most on-going technology-based work. 
                         </p>
                         <ul class="feat">
                             <li class="wow fadeInUp" data-wow-delay=".2s">
                                 <h6><span>1</span> Our Mission</h6>
-                                <p>luctus massa ipsum at tempus eleifend congue lectus bibendum</p>
+                                <p>Cater our clients with advanced solutions and services to startups, new businesses and developed organizations in technology related aspects.</p>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay=".4s">
                                 <h6><span>2</span> Our Goals</h6>
-                                <p>luctus massa ipsum at tempus eleifend congue lectus bibendum</p>
+                                <p>Envision to contribute and flourish businesses and new startups in their early development stages to later in the long run of becoming business tycoons with outclass services and work that will speak of its own quality in respect to technology assistance.</p>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay=".6s">
                                 <h6><span>3</span> Why Us? </h6>
-                                <p>luctus massa ipsum at tempus eleifend congue lectus bibendum</p>
+                                <p>We here at <strong>TechyMart</strong> not just bring you the ease of outsourced services but also assist you furnishing your business.</p>
                             </li>
                         </ul>
                     </div>
@@ -446,23 +218,9 @@
 
     <!-- ==================== Start call-to-action ==================== -->
 
-    <section class="call-action section-padding sub-bg bg-img" data-background="img/pattern.png">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-9">
-                    <div class="content sm-mb30">
-                        <h6 class="wow" data-splitting>Let’s Talk</h6>
-                        <h2 class="wow custom-font" data-splitting>about your <b>next project</b>.</h2>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 valign">
-                    <a href="contact.html" class="btn-curve btn-lit"><span>Get In Touch</span></a>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    <?php
+        include 'callToAction.php'
+    ?>
 
     <!-- ==================== End call-to-action ==================== -->
 

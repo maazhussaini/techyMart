@@ -12,7 +12,7 @@
                 <div class="con-info custom-font">
                     <ul>
                         <li><span>Email : </span> info@techymart.io</li>
-                        <li><span>Address : </span> Chadwick pkwy, Northlake, Texas 76262.
+                        <li><span>Address : </span> Chadwick pkwy, Northlake, Texas.
                         </li>
                         <li><span>Phone : </span> (+94) 059 476 70</li>
                     </ul>
